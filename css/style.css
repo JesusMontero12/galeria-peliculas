@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  width: 100%;
+  background-image: url(../assets/img/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px) brightness(0.8);
+  aspect-ratio: 16/9;
+}
+
+h1 {
+  padding: 40px 0 60px;
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.5rem;
+}
+
+.contenedor-galeria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img {
+  position: relative;
+}
+
+.imagen {
+  width: 150px;
+  height: 420px;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+  transition: transform 0.3s, width 0.3s, margin 0.3s, border-radius 0.3s;
+}
+
+.card-img:hover .imagen {
+  width: 280px;
+  margin: 0 40px;
+  border-radius: 10px;
+  filter: blur(1px) brightness(0.5); /* Ajusta el nivel de brillo a 0.5 para oscurecer */
+  transform: scale(1.2);
+}
+
+.info-peli {
+  display: none;
+  position: absolute;
+  top: 149px;
+  width: 280px;
+  height: 420px;
+  border-radius: 10px;
+  color: white;
+}
+
+.card-img:hover .info-peli {
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 280px;
+  margin: 0 40px;
+  border-radius: 10px;
+  transform: scale(1.2);
+}
+
+.info-peli h2 {
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+.datos-peli {
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.datos-peli .categorias {
+  margin-top: 8px;
+  font-size: 10px;
+  color: burlywood;
+}

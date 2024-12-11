@@ -1,0 +1,56 @@
+[
+  {
+    "nombre": "Alien: Romulus",
+    "fecha": "2024",
+    "descripcion": "Un grupo de colonos espaciales se enfrenta a la criatura más aterradora del universo en una nave espacial abandonada a la que han accedido para recuperar cámaras de criostasis, con las que piensan huir a un planeta lejano.",
+    "valoraciones": "4",
+    "categoria": ["Ciencia ficción", "Terror"],
+    "duracion": "1h 59m",
+    "imagen": "../assets/posters-peliculas/alien.jpg"
+  },
+  {
+    "nombre": "Deadpool 3",
+    "fecha": "2024",
+    "descripcion": "Deadpool viaja en el tiempo con la intención de reclutar a Wolverine en la batalla contra un enemigo común: Paradox.",
+    "valoraciones": "5",
+    "categoria": ["Acción", "Comedia"],
+    "duracion": "2h 7m",
+    "imagen": "../assets/posters-peliculas/deadpool3.jpg"
+  },
+  {
+    "nombre": "Duna: parte dos",
+    "fecha": "2024",
+    "descripcion": "Paul Atreides se une a Chani y a los Fremen mientras busca venganza contra los conspiradores que destruyeron a su familia. Paul se enfrenta a una elección entre el amor de su vida y el destino del universo, y debe evitar un futuro terrible.",
+    "valoraciones": "3.5",
+    "categoria": ["Ciencia ficción", "Aventura"],
+    "duracion": "2h 46m",
+    "imagen": "../assets/posters-peliculas/duna.jpg"
+  },
+  {
+    "nombre": "Lift: un robo de primera clase",
+    "fecha": "2024",
+    "descripcion": "Un experto ladrón recibe las propuestas de su exnovia y el FBI para realizar, junto a su equipo de criminales procedentes de varios países, un robo imposible en un vuelo comercial entre Londres y Zúrich.",
+    "valoraciones": "5",
+    "categoria": ["Comedia", "Acción"],
+    "duracion": "1h 47m",
+    "imagen": "../assets/posters-peliculas/lift.jpg"
+  },
+  {
+    "nombre": "El planeta de los simios: Nuevo reino",
+    "fecha": "2024",
+    "descripcion": "Muchos años después de la época de César, los simios se han dividido en clanes y los hombres se han vuelto salvajes. Un clan brutal secuestra a la tribu del chimpancé Noa, pero, con la ayuda de una humana, emprende la misión de rescatarlos.",
+    "valoraciones": "5",
+    "categoria": ["Acción", "Ciencia ficción"],
+    "duracion": "2h 25m",
+    "imagen": "../assets/posters-peliculas/ps.jpg"
+  },
+  {
+    "nombre": "Rampage: devastación",
+    "fecha": "2018",
+    "descripcion": "Un gorila, un lobo y una serpiente sufren una mutación genética y se convierten en seres gigantescos y violentos. El primatólogo que cuidaba del gorila y una experta en genética tratan de detenerlos y, al mismo tiempo, evitar que sufran daños.",
+    "valoraciones": "5",
+    "categoria": ["Acción", "Ciencia ficción"],
+    "duracion": "1h 47m",
+    "imagen": "../assets/posters-peliculas/rampage.jpg"
+  }
+]
